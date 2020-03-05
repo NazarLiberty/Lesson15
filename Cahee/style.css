@@ -677,7 +677,7 @@
 
 /*-------------------- contacts block ---------------*/
 .title__contacts {
-  font-size: 80px;
+  font-size: 60px;
 }
 
 .contacts {
@@ -690,12 +690,6 @@
   margin: 10px 0px -2px 0px;
   padding-left: 25px;
   padding-top: 0;
-}
-
-@media screen and (max-width: 576px) {
-  .contacts * {
-    color: white;
-  }
 }
 
 .contacts__title {
