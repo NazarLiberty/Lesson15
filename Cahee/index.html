@@ -21,21 +21,35 @@
                     <img class="header__logo" src="./header-img/logo.png" alt="">
                 </div>
                 <div class="col-lg-6 offset-lg-4 col-sm-10 col-3">
-                    <div class="header__burger">
-                        <h2>PPP</h2>
+                    <div>
+                        <div class="header__burger header__fixer">
+                            <img src="./header-img/burger.png" alt="" class="header__burger-icon">
+                        </div>
+                        <ul class="header__menu">
+                            <a href="#">
+                                <li>HOME</li>
+                            </a>
+                            <a href="#about-page">
+                                <li>about</li>
+                            </a>
+                            <a href="#services-page">
+                                <li>services</li>
+                            </a>
+                            <a href="#gallery-page">
+                                <li>gallery</li>
+                            </a>
+                            <a href="#blog-page">
+                                <li>blog</li>
+                            </a>
+                            <a href="#contacts-page">
+                                <li>contact</li>
+                            </a>
+                        </ul>
                     </div>
-                    <ul class="header__menu">
-                        <li>HOME</li>
-                        <li>about</li>
-                        <li>services</li>
-                        <li>gallery</li>
-                        <li>blog</li>
-                        <li>contact</li>
-                    </ul>
                 </div>
             </div>
             <!-- HEADER__TEXT AREA -->
-            <div class="row">
+            <div class="row pt-5 pt-sm-0">
                 <div class="col-lg-4 col-sm-8">
                     <h1 class="title">Fresh Life</h1>
                 </div>
@@ -56,13 +70,13 @@
         </div>
     </div>
     <!-- ABOUT US -->
-    <div class="container-fluid container-about">
+    <div class="container-fluid container-about" id="about-page">
         <div class="container-xl content">
-            <div class="row align-items-center">
+            <div class="row align-items-center pb-5">
                 <div class="col-lg-6 offset-lg-0 col-sm-8 offset-sm-2">
                     <img src="./about/img.png" alt="" class="about__image">
                 </div>
-                <div class="col-lg-5 offset-lg-0 col-sm-10 offset-sm-1">
+                <div class="col-lg-5 offset-lg-0 col-sm-10 offset-sm-1 pb-5">
                     <h1 class="title title--white">About us</h1>
                     <p class="text text--white">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit veniam doloremque inventore
@@ -79,7 +93,7 @@
 
     <!-- SERVIES BLOCK -->
 
-    <div class="container-fluid container-services">
+    <div class="container-fluid container-services" id="services-page">
         <div class="container-xl content">
             <div class="container-xl background-services">
                 <div class="row align-items-center">
@@ -139,10 +153,10 @@
 
     <!-- GALLERY BLOCK -->
 
-    <div class="container-fluid container-gallery">
+    <div class="container-fluid container-gallery" id="gallery-page">
         <div class="container-xl content-gallery">
             <div class="row ">
-                <div class="offset-lg-4 col-lg-4 col-sm-8 offset-sm-2 mt-5">
+                <div class="offset-lg-4 col-lg-4 col-sm-8 offset-sm-2 col-10 offset-1 mt-5">
                     <h1 class="gallery__header">Gallery</h1>
                 </div>
                 <div class="gallery__text offset-lg-3 col-lg-6 col-sm-10 offset-sm-1 yellow mt-3">
@@ -152,23 +166,26 @@
                 </div>
             </div>
             <div class="row mt-4">
-                <div class="gallery__image col-lg-8 col-sm-4 mb-2"><img src="./gallery-img/img-1.png" alt=""></div>
-                <div class="gallery__image col-lg-4 col-sm-8 mb-2">
+                <div class="gallery__image col-lg-8 col-sm-4 mb-4 mb-lg-0"><img src="./gallery-img/img-1.png" alt="">
+                </div>
+                <div class="gallery__image col-lg-4 col-sm-8 mb-4  mb-lg-0">
                     <div class="row">
-                        <div class="col-lg-12 col-sm-6 mb-2">
+                        <div class="col-lg-12 col-sm-6 mb-4  mb-lg-0">
                             <img src="./gallery-img/img-2.png" alt=""></div>
-                        <div class="col-lg-12 col-sm-6 mt-lg-4 mb-2"> <img src="./gallery-img/img-3.png" alt="">
+                        <div class="col-lg-12 col-sm-6 mt-lg-4"> <img src="./gallery-img/img-3.png" alt="">
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 col-sm-6 gallery__image pt-sm-4 mb-2"><img src="./gallery-img/img-4.png" alt="">
+                <div class="col-lg-6 col-sm-6 gallery__image pt-sm-4 mb-4  mb-lg-0"><img src="./gallery-img/img-4.png"
+                        alt="">
                 </div>
-                <div class="col-lg-6 col-sm-6 gallery__image pt-sm-4 mb-2"><img src="./gallery-img/img-5.png" alt="">
+                <div class="col-lg-6 col-sm-6 gallery__image pt-sm-4 mb-2  mb-lg-0"><img src="./gallery-img/img-5.png"
+                        alt="">
                 </div>
             </div>
             <div class="row">
-                <div class="mt-5 mb-5 col-lg-2 offset-lg-5 col-sm-6 offset-sm-3 offset-2 justify-content-center"><button
-                        class="gallery__button">VIEW
+                <div class="mt-5 mb-5 col-lg-2 offset-lg-5 col-sm-4 offset-sm-4 offset-1 col-10 justify-content-center">
+                    <button class="gallery__button">VIEW
                         MORE</button>
                 </div>
             </div>
@@ -177,7 +194,7 @@
 
     <!--  EMAIL BLOCK  -->
 
-    <div class="container-fluid email__container">
+    <div class="container-fluid email__container" id="email-page">
         <div class="container-xl email__content">
             <div class="row">
                 <div class="col-lg-4 col-sm-8">
@@ -201,7 +218,7 @@
 
     <!-- blog BLOCK -->
 
-    <div class="blog container-fluid mt-sm-0 mt-5">
+    <div class="blog container-fluid mt-sm-0 mt-5" id="blog-page">
         <div class="container-xl blog-content">
             <header class="row">
                 <div class="col-lg-6 offset-lg-3 pb-3">
@@ -221,7 +238,7 @@
 
             <main class="row">
                 <div
-                    class="col-lg-4 offset-lg-0 col-sm-6 offset-sm-3 mt-3 container-blog__content-blog container-blog__content-blog--img-1">
+                    class="mb-3 col-lg-4 offset-lg-0 col-sm-6 offset-sm-3 mt-3 container-blog__content-blog container-blog__content-blog--img-1">
                     <img src="./blog-img/gradient.png" alt="" class="content-blog__img">
                     <div class="content-blog__fixed">
                         <p class="content-blog__fixed_number">20</p>
@@ -238,7 +255,7 @@
                     </div>
                 </div>
                 <div
-                    class="col-lg-4 offset-lg-0 col-sm-6 offset-sm-3 mt-3 container-blog__content-blog container-blog__content-blog--img-2">
+                    class="mb-3 col-lg-4 offset-lg-0 col-sm-6 offset-sm-3 mt-3 container-blog__content-blog container-blog__content-blog--img-2">
                     <img src="./blog-img/gradient.png" alt="" class="content-blog__img">
                     <div class="content-blog__fixed">
                         <p class="content-blog__fixed_number"> 14</p>
@@ -284,15 +301,15 @@
 
     <!-- CONTACTS BLOCK -->
 
-    <div class="container-fluid contacts-container">
+    <div class="container-fluid contacts-container" id="contacts-page">
         <main class="contacts-content container-xl">
             <!--   -->
             <div class="row">
-                <div class="col-lg-4 offset-lg-4 col-sm-5 offset-sm-4 col-5 offset-2">
+                <div class="col-lg-4 offset-lg-4 col-sm-3 offset-sm-3 col-5 offset-2">
 
                     <h1 class="title title__contacts">Contact</h1>
                 </div>
-                <div class="col-lg-4 offset-lg-4 mb-5 mt-3">
+                <div class="col-lg-4 offset-lg-4 mb-5 mt-3 col-sm-8 offset-sm-2">
                     <p class="text--center text">
                         For new projects, ideas, business or anything
                         you'd like to discuss, contact with me!
@@ -339,7 +356,7 @@
                 <p class="footer__text">
                     © 2015 Company. All right reserved.
                 </p>
-                <img src="./img/logo-contact.png" alt="" class="footer__logo">
+                <img src="./contacts-img/logo-contact.png" alt="" class="footer__logo">
                 <p class="footer__text footer__text-right">
                     Made with <span>love</span> by Auskteez
                 </p>
@@ -356,6 +373,20 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+            $(".header__burger").on("click", () => {
+                $(".header__menu").toggleClass("header__menu--show");
+            });
+        });
+        $(document).ready(function () {
+            $(".header__menu").on("click", () => {
+                $(".header__menu").toggleClass("header__menu--show");
+            });
+        });
+    </script>
 </body>
 
 </html>
