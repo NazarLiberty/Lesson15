@@ -585,7 +585,7 @@
 
 .contacts-container {
   padding-top: 90px;
-  background-image: url(/Cahee/contacts-img/img-contact.png);
+  background-image: url(./contacts-img/img-contact.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
